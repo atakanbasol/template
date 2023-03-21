@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO -->
+    <meta name="title" content="blog" />
+    <meta name="description" content="java, springboot,html,css3,js,bootstrap" />
+    <meta name="author" content="Atakan Başol" />
+    <meta name="" content="" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Font awesome: CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- Google Font: CDN-->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- wow.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script> new WOW().init() </script>
+
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- jquery core and UI -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+    <!-- external CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar_id">
+    <!-- start codes -->
+
+    <!-- navbar start -->
+    <nav id="navbar_id" class="fixed-top navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page"><i class="fa-solid fa-house"></i> <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Yetenek</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımızda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Login</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Login</a>
+                            <a class="dropdown-item" href="#">Register</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a onclick="darkLight()" class="nav-link" href="#"><i class="fa-solid fa-lightbulb"></i></a>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input type="text" id="tags" class="form-control me-sm-2" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- header start -->
+    <header id="header_id">
+        <div class="jumbotron text-white">
+            <div class="container">
+                <div class="p-5 text-center" id="header_sub">
+                    <h1 class="text-uppercase display-3 mb-5">My Blog Webside</h1>
+                    <h4>HTML5 CSS3- JS - BOOTSTRAP -JQUERY</h4>
+                    <a href="#!" target="_blank"><i class="fa-brands fa-blogger-b"></i></a>
+                    <a href="https://www.linkedin.com/in/atakan-ba%C5%9Fol-544228153/" target="_blank"><i
+                            class="fa-brands fa-linkedin" style="color:orange;"></i> </a>
+                    <a href="https://github.com/atakanbasol" target="_blank"><i
+                            class="fa-brands fa-github text-secondary"></i> </a>
+                    <a href="youtube.com/channel/UC4XgJUtzBDto9MNnkENV4gQ" target="_blank"><i
+                            class="fa-brands fa-youtube" style="color:red;"></i> </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main id="main_id">
+
+        <!-- main_company_information -->
+        <section id="main_company_information">
+            <div id="icon_message">
+                <h2 class="text-center text-uppercase">My Hobbies</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3 text-center">
+                            <i class="fa-sharp fa-regular fa-mask-snorkel"></i>
+                            <h4>Scuba</h4>
+                            <p class="line-clamp6">taşıma Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                iure, distinctio porro corrupti ratione maiores exercitationem. Incidunt ducimus eius
+                                explicabo officiis earum et! Provident nostrum ipsam earum aliquam esse! Vitae!
+                                Dolores perspiciatis sequi cupiditate culpa! Temporibus veritatis ex nobis enim
+                                quisquam, tenetur exercitationem modi libero minus laudantium quos autem hic, quas eius.
+                                Accusamus corporis cupiditate modi ipsam? Provident, quaerat laudantium.
+                                Dolorum ex totam asperiores mollitia rem dolores, itaque eaque, magni obcaecati
+                                exercitationem amet minus dolor alias. Corrupti, quidem. Iure, recusandae temporibus
+                                dolores alias inventore voluptates pariatur dignissimos magnam enim nam?
+                                Magni omnis cupiditate quod in ullam explicabo soluta fuga impedit, corporis
+                                perferendis, molestias officia quam minima ad, quisquam iure dignissimos. Praesentium
+                                at, soluta necessitatibus rerum labore velit provident placeat. Nulla.</p>
+                        </div>
+
+                        <div class="col-12 col-md-3 text-center">
+                            <i class="fa-sharp fa-solid fa-chess"></i>
+                            <h4>Chess</h4>
+                            <p class="line-clamp6">taşıma Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                iure, distinctio porro corrupti ratione maiores exercitationem. Incidunt ducimus eius
+                                explicabo officiis earum et! Provident nostrum ipsam earum aliquam esse! Vitae!
+                                Dolores perspiciatis sequi cupiditate culpa! Temporibus veritatis ex nobis enim
+                                quisquam, tenetur exercitationem modi libero minus laudantium quos autem hic, quas eius.
+                                Accusamus corporis cupiditate modi ipsam? Provident, quaerat laudantium.
+                                Dolorum ex totam asperiores mollitia rem dolores, itaque eaque, magni obcaecati
+                                exercitationem amet minus dolor alias. Corrupti, quidem. Iure, recusandae temporibus
+                                dolores alias inventore voluptates pariatur dignissimos magnam enim nam?
+                                Magni omnis cupiditate quod in ullam explicabo soluta fuga impedit, corporis
+                                perferendis, molestias officia quam minima ad, quisquam iure dignissimos. Praesentium
+                                at, soluta necessitatibus rerum labore velit provident placeat. Nulla.</p>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 text-center">
+                            <i class="fa-sharp fa-regular fa-campground"></i>
+                            <h4>Travel and Camping</h4>
+                            <p class="line-clamp6">taşıma Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                iure, distinctio porro corrupti ratione maiores exercitationem. Incidunt ducimus eius
+                                explicabo officiis earum et! Provident nostrum ipsam earum aliquam esse! Vitae!
+                                Dolores perspiciatis sequi cupiditate culpa! Temporibus veritatis ex nobis enim
+                                quisquam, tenetur exercitationem modi libero minus laudantium quos autem hic, quas eius.
+                                Accusamus corporis cupiditate modi ipsam? Provident, quaerat laudantium.
+                                Dolorum ex totam asperiores mollitia rem dolores, itaque eaque, magni obcaecati
+                                exercitationem amet minus dolor alias. Corrupti, quidem. Iure, recusandae temporibus
+                                dolores alias inventore voluptates pariatur dignissimos magnam enim nam?
+                                Magni omnis cupiditate quod in ullam explicabo soluta fuga impedit, corporis
+                                perferendis, molestias officia quam minima ad, quisquam iure dignissimos. Praesentium
+                                at, soluta necessitatibus rerum labore velit provident placeat. Nulla.</p>
+                        </div>
+
+
+                        <div class="col-12 col-md-3 text-center">
+                            <i class="fa-sharp fa-solid fa-coffee-bean"></i>
+                            <h4>Software</h4>
+                            <p class="line-clamp6">taşıma Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                iure, distinctio porro corrupti ratione maiores exercitationem. Incidunt ducimus eius
+                                explicabo officiis earum et! Provident nostrum ipsam earum aliquam esse! Vitae!
+                                Dolores perspiciatis sequi cupiditate culpa! Temporibus veritatis ex nobis enim
+                                quisquam, tenetur exercitationem modi libero minus laudantium quos autem hic, quas eius.
+                                Accusamus corporis cupiditate modi ipsam? Provident, quaerat laudantium.
+                                Dolorum ex totam asperiores mollitia rem dolores, itaque eaque, magni obcaecati
+                                exercitationem amet minus dolor alias. Corrupti, quidem. Iure, recusandae temporibus
+                                dolores alias inventore voluptates pariatur dignissimos magnam enim nam?
+                                Magni omnis cupiditate quod in ullam explicabo soluta fuga impedit, corporis
+                                perferendis, molestias officia quam minima ad, quisquam iure dignissimos. Praesentium
+                                at, soluta necessitatibus rerum labore velit provident placeat. Nulla.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- counter -->
+        <section id="counter">
+            <div class="container">
+                <div class="counter_header">
+                    <h3>Proje bilgileri</h3>
+                    <p>Counter</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center col-lg-3">
+                        <span>Saat</span> <br />
+                        <i class="fa-solid fa-clock"></i>
+                        <p class="text-center ">+500</p>
+                    </div>
+
+                    <div class="col-md-6 mx-auto text-center col-lg-3">
+                        <span>Eleman sayısı</span> <br />
+                        <i class="fa-solid fa-barcode"></i>
+                        <p class="text-center ">+10</p>
+                    </div>
+
+                    <div class="col-md-6 mx-auto text-center col-lg-3">
+                        <span>Proje sayısı </span> <br />
+                        <i class="fa-solid fa-barcode"></i>
+                        <p class="text-center ">+80</p>
+                    </div>
+
+                    <div class="col-md-6 mx-auto text-center col-lg-3">
+                        <span>Müşteri sayısı</span> <br />
+                        <i class="fa-solid fa-user-clock"></i>
+                        <p class="text-center ">+15</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- parallax picture -->
+        <section class="main_parallax">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Summary</h2>
+                    <p>I am currently working as a Software Test Engineer at Havelsan. I am coding automation software
+                        for weapon, radar and sensor tests with Python programming language using the Sikulix program. I
+                        automate these tests that were previously done manually. In the next period, I want to move to
+                        the field of software development and for this, I am studying Full Stack Java Developer
+                        education from Hamit Mızrak. At the same time, I carry out studies in this field with the
+                        education I have received. I will share the work I have done on my GitHub account. My aim is to
+                        become a good Software Engineer by improving myself with this course and my studies.</p>
+                    <div><button class="btn btn-outline-primary text-center">More</button></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- newspaper -->
+        <section class="main_newspaper">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h2 class="text-center">Cover Latter</h2>
+                        <p id="newspaper_id">
+                            Dear Sir / Madam
+
+                            I graduated from Kocaeli University Electrical Engineering Department in June 2021. In line
+                            with the education and experience I received at the university, I decided to turn to
+                            Software. Throughout my education life, I worked in the field of Embedded systems and
+                            Automation both in my projects and in my graduation thesis. I thought that these areas would
+                            help me more in reaching my goals and I took many online courses and trainings to improve
+                            myself in software. I also took courses in this field at my school and worked on PLC and
+                            SCADA in my Project and Graduation thesis. When I had the opportunity from my school life, I
+                            gained experience by working part-time in order to improve and reinforce the training and
+                            knowledge I learned and to see the operation of the sector, and I had the opportunity to
+                            meet many people.
+
+                            I am currently working as a Software Test Engineer at Havelsan. I am coding automation
+                            software for weapon, radar and sensor tests with Python programming language using the
+                            Sikulix program. I automate these tests that were previously done manually. In the next
+                            period, I want to move to the field of software development and for this, I am studyingFull
+                            Stack Java Developer education from HamitMızrak. At the same time, I carry out studies in
+                            this field with the education I have received. I will share the work I have done on my
+                            GitHub account. My aim is to become a good Software Engineer by improving myself with this
+                            course and my studies.
+
+                            During my university life, I was an active member of many social clubs and I took
+                            responsibility in two of them. One of these clubs is 1907 Ünifeb. I took charge here as the
+                            organization and membership officer.Another club I worked for was IEEE.In this club, I took
+                            part in the coordination team for a short time. My experiences in this clubs has given me a
+                            sense of responsibility and improved my human relations, problem solving ability and
+                            self-confidence.
+
+                            I opened a youtube channel to present my applications in my project and graduation thesis.
+                            In this channel, I share PLC and SCADA applications and my work in this field. I am
+                            currently producing content on embedded systems as a video. Telling my applications to
+                            others also helps me learn better. The next project I will do will be microcontroller
+                            applications with STM32F4 Discovery card. I will continue my projects in this field.Also I
+                            will share my soon software applications on my Github account. You can follow me there.
+                            https://github.com/atakanbasol
+
+                            I do not have any travel restrictions.I would like to state that I chose it decisively and
+                            consciously. In this sector, I will increase my technical and application skills with the
+                            help of you and I will benefit you and myself more. I want to see different projects and
+                            work with you to provide them with creative solutions.
+
+                            I believe that as a Software Developer in the your company, my energy, analytic skills,
+                            organizational abilities and creativity in tackling problems will make a positive
+                            contribution.I apply to your institution with high motivation and consciously. If I can find
+                            the opportunity to work with you, I think that I can contribute to your institution's
+                            activities in the software and elecrical field and achieve success.
+
+
+                            Thank you for your time and consideration.
+                            Sincerely
+                            <br /> <a href="#!" class="btn btn-primary btn-sm">Read Me</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main_blog">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-uppercase text-center">Blog</h2>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog1.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog2.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog2.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog1.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog2.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog1.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog2.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/blog1.jpg" alt="Title">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark text-center">Title</h4>
+                                <p class="card-text text-dark">Text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- main end -->
+
+
+    <!-- back to top start -->
+    <a href="#header_id" id="back_top" class="btn btn-primary"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+    <!-- footer start -->
+    <footer id="footer_id">
+        <section id="footer_section">
+            <div class="container text-center text-md-start-mt-5">
+                <div class="row mt-4">
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4 shadow">
+                        <h5 class="text-uppercase">
+                            <i class="fa-regular fa-building"></i>Company <br />
+                            <a href="tel:+901112223344">tel</a><br />
+                            <a href="tel:+901112223344">fax</a><br />
+                            <a href="mailto:atakanbasol8@gmail.com">mail</a><br />
+                        </h5>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4 shadow">
+                        <h5 class="text-uppercase">
+                            <a href="">Yetenek</a>
+                            <a href="">Blog</a>
+                            <a href="">Hakkımızda</a>
+                            <a href="">İletişim</a>
+                        </h5>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4 shadow">
+                        <h5 class="text-uppercase">
+                            <a href="">blog1</a>
+                            <a href="">blog2</a>
+                            <a href="">blog3</a>
+                            <a href="">blog4</a>
+                        </h5>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4 shadow">
+                        <h5 class="text-uppercase">
+                            <a href="">blog1</a>
+                            <a href="">blog2</a>
+                            <a href="">blog3</a>
+                            <a href="">blog4</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer_copyright" class="text-center p-4">
+            &copy; 2022- <span id="next_year"></span> <a href="http://www.hamitmizrak.com.tr">Atakan Başol</a>
+        </section>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- end codes -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <!-- external JS -->
+    <script src="js/template.js"></script>
+</body>
+
+</html>
